@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav {
+    padding-top: 27px;
+    padding-bottom: 14px;
+    background-color: #0A0A09;
+}
+.header-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 100px;
+}
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+}
+.header-link {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    transition: all 0.5s ease-in-out;
+}
+.header-link:hover {
+    color: #FFF;
+}
+
+.header-2 {
+    padding-top: 126px;
+    padding-bottom: 174px;
+    background-image: url(../images/kisspng-autonomous-republic-of-crimea-crimean-people-s-rep-5af46f1fed8ca3\ 1.png), url(../images/gold-bmw-m4-car\ 1.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center top, right, right;
+
+}
+
+.header-title {
+    color: #FFF;
+    font-size: 68px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -3.20px;
+    margin-bottom: 50px;
+}
+
+.header-title span {
+    color: #D4CC7B;
+}
+
+.header-text {
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: -1.30px;
+    font-size: 34px;
+    color: #FFF;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.select-btn {
+    border-radius: 30px;
+    font-style: normal;
+    border: 1px solid gold;
+    margin-bottom: 253px;
+    padding: 20px 58px;
+    color: #000;
+    font-size: 24px;
+    background: linear-gradient(280deg, #FFF -23.59%, gold 115.07%);
+    line-height: normal;
+    font-weight: 500;
+    letter-spacing: -1.08px;
+    transition: all 0.4s ease-in-out;
+}
+
+.select-btn:hover {
+    background-color: transparent;
+    color:  white;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+}
+
+.loading__img {
+    text-align: center;
+}
+
+
+
+.extra__container {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.arend {
+    padding-bottom: 308px;
+    padding-top: 88px;
+    background-position: center, left bottom;
+    background-color: #0A0A09;
+    background-image: url(no), url(../images/bmw.png);
+    background-repeat: no-repeat;
+    background-position: center, left bottom;
+}
+
+.arend__title {
+    text-align: center;
+    letter-spacing: -2.16px;
+    font-style: italic;
+    font-size: 48px;
+    line-height: normal;
+    color: #FFF;
+    margin-bottom: 130px;
+    font-weight: 700;
+}
+
+.arend__title span {
+    color: #ECD774;
+}
+
+.arend__cards {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 120px;
+}
+
+.arend__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 67px;
+    flex-direction: column;
+}
+
+.card__img {
+    margin-bottom: 34px;
+}
+
+.card__text {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    font-style: normal;
+    letter-spacing: -1.08px;
+}
+
+
+
+.arend__btn {
+    padding: 11px 15px;
+    color: #0C0F12;
+    border-radius: 10px;
+    font-style: normal;
+    line-height: normal;
+    background-color: yellow;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid yellow;
+    font-size: 24px;
+    letter-spacing: -1.08px;
+}
+
+.arend__btn:hover {
+    color: white;
+    background-color: transparent;
+    box-shadow: 0px 0px 5px 0px yellow;
+}   
+
+
+
+
